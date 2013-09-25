@@ -2,12 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>JBake - Java based open source static site/blog generator</title>
+    <title>JBake Bootstrap Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="JBake is a Java based, open source, static site/blog generator for developers.">
-    <meta name="author" content="Jonathan Bullock">
-    <meta name="keywords" content="java, baking, open source, generator, web site">
-    <meta name="google-site-verification" content="enter-code-here" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">    
 
     <!-- Le styles -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
