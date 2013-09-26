@@ -11,41 +11,59 @@
     <!-- Le styles -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
+
+      /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
       body {
-        padding-top: 20px;
-        padding-bottom: 40px;
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
       }
 
-      /* Custom container */
-      .container-narrow {
-        margin: 0 auto;
-        max-width: 700px;
-      }
-      .container-narrow > hr {
-        margin: 30px 0;
-      }
-
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        margin: 60px 0;
-        text-align: center;
-      }
-      .jumbotron h1 {
-        font-size: 72px;
-        line-height: 1;
-      }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
       }
 
-      /* Supporting marketing content */
-      .marketing {
-        margin: 30px 0;
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
       }
-      .marketing p + h4 {
-        margin-top: 28px;
+      #footer {
+        background-color: #f5f5f5;
       }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      #wrap > .container {
+        padding-top: 60px;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
+
+      code {
+        font-size: 80%;
+      }
+
     </style>
     <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
 
@@ -62,5 +80,5 @@
     <link rel="shortcut icon" href="../assets/ico/favicon.png">-->
   </head>
   <body>
-    <div class="container-narrow">
+    <div id="wrap">
    

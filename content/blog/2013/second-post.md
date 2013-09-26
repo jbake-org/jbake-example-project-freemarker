@@ -1,5 +1,5 @@
-title=First Post
-date=2013-07-24
+title=Second Post
+date=2013-08-25
 type=post
 tags=blog
 status=published
