@@ -10,6 +10,7 @@
 
     <!-- Le styles -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/asciidoctor.css" rel="stylesheet">
     <style type="text/css">
 
       /* Sticky footer styles

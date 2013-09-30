@@ -7,7 +7,8 @@
 	</div>
 	<#list posts as post>
   		<#if (post.status == "published")>
-  			<p class="lead"><a href="${post.uri}">${post.title}</a></p>
+  			<a href="${post.uri}"><h1>${post.title}</h1></a>
+  			<!--<p class="lead"><a href="${post.uri}">${post.title}</a></p>-->
   			<p>${post.date?string("dd MMMM yyyy")}</p>
   			<p>${post.body}</p>
   		</#if>
