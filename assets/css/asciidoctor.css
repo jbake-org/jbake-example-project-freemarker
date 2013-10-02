@@ -1,3 +1,4 @@
+@import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/css/font-awesome.css);
 /* ========================================================================== Embedded content ========================================================================== */
 /** Remove border when inside `a` element in IE 8/9. */
 img { border: 0; }
@@ -52,14 +53,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-html, body { font-size: 100%; }
-
-body { background: white; color: #222222; padding: 0; margin: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1; position: relative; cursor: auto; }
-
-a:hover { cursor: pointer; }
-
-a:focus { outline: none; }
-
 img, object, embed { max-width: 100%; height: auto; }
 
 object, embed { height: 100%; }
@@ -93,45 +86,6 @@ select { width: 100%; }
 p.lead, .paragraph.lead > p, #preamble > .sectionbody > .paragraph:first-of-type p { font-size: 1.21875em; line-height: 1.6; }
 
 .subheader, #content #toctitle, .admonitionblock td.content > .title, .exampleblock > .title, .imageblock > .title, .videoblock > .title, .listingblock > .title, .literalblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, .sidebarblock > .title, .tableblock > .title, .verseblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title, .tableblock > caption { line-height: 1.4; color: #7a2518; font-weight: 300; margin-top: 0.2em; margin-bottom: 0.5em; }
-
-/* Typography resets */
-div, dl, dt, dd, ul, ol, li, h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; direction: ltr; }
-
-/* Default Link Styles */
-a { color: #005498; text-decoration: underline; line-height: inherit; }
-a:hover, a:focus { color: #00467f; }
-a img { border: none; }
-
-/* Default paragraph styles */
-p { font-family: inherit; font-weight: normal; font-size: 1em; line-height: 1.6; margin-bottom: 1.25em; text-rendering: optimizeLegibility; }
-p aside { font-size: 0.875em; line-height: 1.35; font-style: italic; }
-
-/* Default header styles */
-h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: Georgia, "URW Bookman L", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; color: #ba3925; text-rendering: optimizeLegibility; margin-top: 1em; margin-bottom: 0.5em; line-height: 1.2125em; }
-h1 small, h2 small, h3 small, #toctitle small, .sidebarblock > .content > .title small, h4 small, h5 small, h6 small { font-size: 60%; color: #e99b8f; line-height: 0; }
-
-h1 { font-size: 2.125em; }
-
-h2 { font-size: 1.6875em; }
-
-h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.375em; }
-
-h4 { font-size: 1.125em; }
-
-h5 { font-size: 1.125em; }
-
-h6 { font-size: 1em; }
-
-hr { border: solid #dddddd; border-width: 1px 0 0; clear: both; margin: 1.25em 0 1.1875em; height: 0; }
-
-/* Helpful Typography Defaults */
-em, i { font-style: italic; line-height: inherit; }
-
-strong, b { font-weight: bold; line-height: inherit; }
-
-small { font-size: 60%; line-height: inherit; }
-
-code { font-family: Consolas, "Liberation Mono", Courier, monospace; font-weight: normal; color: #6d180b; }
 
 /* Lists */
 ul, ol, dl { font-size: 1em; line-height: 1.6; margin-bottom: 1.25em; list-style-position: outside; font-family: inherit; }
