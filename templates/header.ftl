@@ -61,9 +61,9 @@
         margin: 20px 0;
       }
 
-      code {
+      /*code {
         font-size: 80%;
-      }
+      }*/
 
     </style>
     <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
