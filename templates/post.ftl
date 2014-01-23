@@ -3,7 +3,7 @@
 	<#include "menu.ftl">
 	
 	<div class="page-header">
-		<h1>${content.title}</h1>
+		<h1><#escape x as x?xml>${content.title}</#escape></h1>
 	</div>
 
 	<p><em>${content.date?string("dd MMMM yyyy")}</em></p>
