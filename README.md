@@ -1,4 +1,4 @@
-jbake-template-bootstrap
+jbake-example-project-freemarker
 ========================
 
-JBake base template using Bootstrap
+Example project structure for JBake that uses Freemarker templates and Bootstrap.
