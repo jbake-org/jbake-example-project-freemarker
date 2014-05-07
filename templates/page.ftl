@@ -10,6 +10,6 @@
 
 	<p>${content.body}</p>
 
-	<hr>
+	<hr />
 
 <#include "footer.ftl">
