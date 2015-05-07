@@ -15,6 +15,6 @@
 	
 	<hr />
 	
-	<p>Older posts are available in the <a href="/${config.archive_file}">archive</a>.</p>
+	<p>Older posts are available in the <a href="${content.rootpath}${config.archive_file}">archive</a>.</p>
 
 <#include "footer.ftl">
