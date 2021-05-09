@@ -27,6 +27,7 @@
                 <li><a href="#">One more separated link</a></li>
               </ul>
             </li>
+            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>archive.html">Archive</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
